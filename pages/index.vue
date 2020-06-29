@@ -3,7 +3,7 @@
     <div
       v-for="blogPost in blogPosts"
       :key="blogPost.id"
-      class="max-w-3xl bg-white rounded-lg mx-auto mt-8 p-8"
+      class="max-w-3xl bg-white rounded-lg mx-auto mt-4 p-4 lg:mt-8 lg:p-8"
     >
       <h1
         class="text-2xl font-medium mb-2"
@@ -33,5 +33,3 @@ export default {
   },
 }
 </script>
-
-<style></style>
