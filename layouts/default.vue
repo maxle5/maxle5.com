@@ -4,12 +4,13 @@
       class="lg:px-16 px-6 bg-white flex flex-wrap items-center lg:py-0 py-2"
     >
       <div class="flex-1 flex justify-between items-center">
-        <NuxtLink to="/" class="flex items-center justify-start pointer-cursor">
+        <NuxtLink to="/" class="flex items-center justify-start">
           <img
-            class="rounded-full lg:w- w-10 h-10 border-2 border-transparent hover:border-indigo-400"
+            class="rounded-full lg:w- w-10 h-10"
             src="~/assets/images/avatar.png"
             alt="Max Lefebvre"
           />
+          <span class="ml-2">Max Lefebvre</span>
         </NuxtLink>
       </div>
 
