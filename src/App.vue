@@ -1,15 +1,13 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
-import TheHeader from './components/TheHeader.vue';
-import TheFooter from './components/TheFooter.vue';
+import TheSidebar from './components/TheSidebar.vue';
 </script>
 
 <template>
-  <the-header></the-header>
-  <main class="bg-slate-200 grow overflow-auto">
-    <RouterView />
+  <the-sidebar />
+  <main class="p-8">
+    <router-view />
   </main>
-  <the-footer></the-footer>
 </template>
 
 <style>
@@ -18,5 +16,4 @@ import TheFooter from './components/TheFooter.vue';
   margin: 0;
   padding: 0;
 }
-
 </style>
