@@ -1,7 +1,9 @@
 <template>
   <header class="flex justify-between items-stretch h-16 text-slate-200">
-    <div class="bg-sky-600 w-16"></div>
-    <div class="flex">
+    <div class="p-2 w-12 flex justify-center items-center">
+      <img :src="Avatar" alt="Max Lefebvre" />
+    </div>
+    <div class="flex ml-4">
       <router-link to="/" class="block mr-4 flex justify-center items-center hover:text-sky-500">
         <span class="text-sky-500 mr-2">01.</span>About
       </router-link>
@@ -28,5 +30,5 @@
 </template>
 
 <script setup lang="ts">
-import GithubIcon from 'vue-material-design-icons/Github.vue'
+import Avatar from '@/assets/avatar.png'
 </script>
