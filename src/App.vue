@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
-import TheSidebar from './components/TheSidebar.vue';
+import TheHeader from './components/TheHeader.vue'
 </script>
 
 <template>
-  <the-sidebar />
-  <main class="p-8">
+  <the-header />
+  <main class="p-8 mx-auto max-w-screen-xl h-100 text-slate-300">
     <router-view />
   </main>
 </template>
