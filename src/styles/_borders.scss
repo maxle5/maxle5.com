@@ -1,0 +1,57 @@
+@import "./vars.scss";
+
+.border-solid {
+  border-style: solid;
+}
+.border-none {
+  border-style: none;
+}
+
+.border-color-primary {
+  border-color: $color-primary;
+}
+.border-color-secondary {
+  border-color: $color-secondary;
+}
+.border-color-success {
+  border-color: $color-success;
+}
+.border-color-danger {
+  border-color: $color-danger;
+}
+.border-color-warning {
+  border-color: $color-warning;
+}
+.border-color-info {
+  border-color: $color-info;
+}
+.border-color-light {
+  border-color: $color-light;
+}
+.border-color-dark {
+  border-color: $color-dark;
+}
+.border-color-white {
+  border-color: $color-white;
+}
+.border-color-black {
+  border-color: $color-black;
+}
+
+@for $i from 0 through 5 {
+  .border-#{$i} {
+    border-width: #{$i}px;
+  }
+  .border-bottom-#{$i} {
+    border-bottom-width: #{$i}px;
+  }
+  .border-top-#{$i} {
+    border-top-width: #{$i}px;
+  }
+  .border-left-#{$i} {
+    border-left-width: #{$i}px;
+  }
+  .border-right-#{$i} {
+    border-right-width: #{$i}px;
+  }
+}

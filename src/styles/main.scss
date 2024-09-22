@@ -1,0 +1,32 @@
+/* reset browser styles */
+@import "./nomalize.scss";
+
+/* utils */
+@import './_backgrounds.scss';
+@import './_borders.scss';
+@import './_displays.scss';
+@import './_flex.scss';
+@import './_heights.scss';
+@import './_margins.scss';
+@import './_paddings.scss';
+@import './_positions.scss';
+@import './_text.scss';
+@import './_widths.scss';
+
+/* Layout */
+#app {
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "main";
+    grid-template-rows: 50px 1fr;
+    min-height: 100vh;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}

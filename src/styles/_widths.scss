@@ -1,0 +1,33 @@
+.w-full {
+    width: 100vw;
+}
+.min-w-full {
+    min-width: 100vw;
+}
+.max-w-full {
+    max-width: 100vw;
+}
+
+@for $i from 1 through 100 {
+  .w-#{$i} {
+    width: #{$i * 1%};
+  }
+  .min-w-#{$i} {
+    min-width: #{$i * 1%};
+  }
+  .max-w-#{$i} {
+    max-width: #{$i * 1%};
+  }
+}
+
+@for $i from 1 through 16 {
+    .w-#{$i}-rem {
+        width: #{$i * 1}rem;
+    }
+    .min-w-#{$i}-rem {
+        min-width: #{$i * 1}rem;
+    }
+    .max-w-#{$i}-rem {
+        max-width: #{$i * 1}rem;
+    }
+}

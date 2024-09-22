@@ -1,0 +1,55 @@
+@import './vars.scss';
+
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
+.font-weight-lighter {
+  font-weight: lighter;
+}
+.font-weight-normal {
+  font-weight: normal;
+}
+.font-weight-bold {
+  font-weight: bold;
+}
+.font-weight-bolder {
+  font-weight: bolder;
+}
+
+.color-primary {
+  color: $color-primary;
+}
+.color-secondary {
+  color: $color-secondary;
+}
+.color-success {
+  color: $color-success;
+}
+.color-danger {
+  color: $color-danger;
+}
+.color-warning {
+  color: $color-warning;
+}
+.color-info {
+  color: $color-info;
+}
+.color-light {
+  color: $color-light;
+}
+.color-dark {
+  color: $color-dark;
+}
+.color-white {
+  color: $color-white;
+}
+.color-black {
+  color: $color-black;
+}

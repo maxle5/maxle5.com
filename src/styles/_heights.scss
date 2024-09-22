@@ -1,0 +1,33 @@
+.h-full {
+    height: 100vw;
+}
+.min-w-full {
+    min-height: 100vw;
+}
+.max-w-full {
+    max-height: 100vw;
+}
+
+@for $i from 1 through 100 {
+  .h-#{$i} {
+    height: #{$i * 1%};
+  }
+  .min-w-#{$i} {
+    min-height: #{$i * 1%};
+  }
+  .max-w-#{$i} {
+    max-height: #{$i * 1%};
+  }
+}
+
+@for $i from 1 through 16 {
+    .h-#{$i}-rem {
+        height: #{$i * 1}rem;
+    }
+    .min-w-#{$i}-rem {
+        min-height: #{$i * 1}rem;
+    }
+    .max-w-#{$i}-rem {
+        max-height: #{$i * 1}rem;
+    }
+}
