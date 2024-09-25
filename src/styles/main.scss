@@ -1,32 +1,47 @@
 /* reset browser styles */
-@import "./nomalize.scss";
+@import "./nomalize.scss"; // TODO: simplify this file
 
 /* utils */
-@import './_backgrounds.scss';
-@import './_borders.scss';
-@import './_displays.scss';
-@import './_flex.scss';
-@import './_heights.scss';
-@import './_margins.scss';
-@import './_paddings.scss';
-@import './_positions.scss';
-@import './_text.scss';
-@import './_widths.scss';
+@import "./_backgrounds.scss";
+@import "./_borders.scss";
+@import "./_displays.scss";
+@import "./_flex.scss";
+@import "./_heights.scss";
+@import "./_margins.scss";
+@import "./_paddings.scss";
+@import "./_positions.scss";
+@import "./_text.scss";
+@import "./_widths.scss";
+@import "./_vars.scss";
+
+/* overwrite default colors */
+:root {
+  --color-primary: #e3482c;
+  --color-secondary: #b8b8b9;
+//--color-success: #28a745;
+//--color-danger: #dc3545;
+//--color-warning: #ffc107;
+//--color-info: #17a2b8;
+//--color-light: #f8f9fa;
+  --color-dark: #1f1f1f;
+//--color-white: #fff;
+//--color-black: #000;
+}
 
 /* Layout */
 #app {
-    display: grid;
-    grid-template-areas: 
-        "header"
-        "main";
-    grid-template-rows: 50px 1fr;
-    min-height: 100vh;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main";
+  grid-template-rows: 50px 1fr;
+  min-height: 100vh;
 }
 
 header {
-    grid-area: header;
+  grid-area: header;
 }
 
 main {
-    grid-area: main;
+  grid-area: main;
 }
