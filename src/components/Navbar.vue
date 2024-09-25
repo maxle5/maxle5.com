@@ -1,11 +1,11 @@
 <template>
   <nav class="display-flex justify-content-between position-fixed px-3 w-100">
     <ul class="display-flex p-0 m-0">
-      <li class="p-1"><a href="/">About</a></li>
-      <li class="p-1"><a href="#about">Work</a></li>
-      <li class="p-1"><a href="#projects">Projects</a></li>
-      <li class="p-1"><a href="/blog">Blog</a></li>
-      <li class="p-1"><a href="#contact">Contact</a></li>
+      <li class="p-1"><router-link to="/">About</router-link></li>
+      <li class="p-1"><router-link to="/work">Work</router-link></li>
+      <li class="p-1"><router-link to="/projects">Projects</router-link></li>
+      <li class="p-1"><router-link to="/blog">Blog</router-link></li>
+      <li class="p-1"><router-link to="/contact">Contact</router-link></li>
     </ul>
 
     <ul class="display-flex p-0 m-0">
