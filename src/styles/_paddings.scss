@@ -2,24 +2,53 @@
   .p-#{$i} {
     padding: #{$i * 1}rem;
   }
+  .p-#{$i}_5 {
+    padding: #{$i + 0.5}rem;
+  }
+
   .pt-#{$i} {
     padding-top: #{$i * 1}rem;
   }
+  .pt-#{$i}_5 {
+    padding-top: #{$i + 0.5}rem;
+  }
+
   .pr-#{$i} {
     padding-right: #{$i * 1}rem;
   }
+  .pr-#{$i}_5 {
+    padding-right: #{$i + 0.5}rem;
+  }
+
   .pb-#{$i} {
     padding-bottom: #{$i * 1}rem;
   }
+  .pb-#{$i}_5 {
+    padding-bottom: #{$i + 0.5}rem;
+  }
+
   .pl-#{$i} {
     padding-left: #{$i * 1}rem;
   }
+  .pl-#{$i}_5 {
+    padding-left: #{$i + 0.5}rem;
+  }
+
   .px-#{$i} {
     padding-left: #{$i * 1}rem;
     padding-right: #{$i * 1}rem;
   }
+  .px-#{$i}_5 {
+    padding-left: #{$i + 0.5}rem;
+    padding-right: #{$i + 0.5}rem;
+  }
+
   .py-#{$i} {
     padding-top: #{$i * 1}rem;
     padding-bottom: #{$i * 1}rem;
+  }
+  .py-#{$i}_5 {
+    padding-top: #{$i + 0.5}rem;
+    padding-bottom: #{$i + 0.5}rem;
   }
 }

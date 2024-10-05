@@ -5,6 +5,7 @@
       <li>@maxle5/mdi-vue3</li>
       <li>FinderGenerator</li>
       <li>ProseMirror</li>
+      <li>@maxle5/css-kit</li>
     </ul>
   </article>
 </template>

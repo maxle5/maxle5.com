@@ -24,10 +24,21 @@
     .w-#{$i}-rem {
         width: #{$i * 1}rem;
     }
+    .w-#{$i}_5-rem {
+        width: #{$i + 0.5}rem;      
+    }
+
     .min-w-#{$i}-rem {
         min-width: #{$i * 1}rem;
     }
+    .min-w-#{$i}_5-rem {
+        min-width: #{$i + 0.5}rem;
+    }
+
     .max-w-#{$i}-rem {
         max-width: #{$i * 1}rem;
+    }
+    .max-w-#{$i}_5-rem {
+        max-width: #{$i + 0.5}rem;
     }
 }
