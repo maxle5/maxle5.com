@@ -32,6 +32,7 @@
       <li class="p-1">
         <router-link
           to="/work"
+          active-class="color-white"
           class="color-light-500 hover:color-light display-flex align-items-center"
         >
           <mdi-briefcase-outline class="mr-0_5" />
@@ -41,6 +42,7 @@
       <li class="p-1">
         <router-link
           to="/projects"
+          active-class="color-white"
           class="color-light-500 hover:color-light display-flex align-items-center"
         >
           <mdi-account-hard-hat-outline class="mr-0_5" />
@@ -50,6 +52,7 @@
       <li class="p-1">
         <router-link
           to="/blog"
+          active-class="color-white"
           class="color-light-500 hover:color-light display-flex align-items-center"
         >
           <mdi-notebook-outline class="mr-0_5" />
@@ -59,6 +62,7 @@
       <li class="p-1">
         <router-link
           to="/contact"
+          active-class="color-white"
           class="color-light-500 hover:color-light display-flex align-items-center"
         >
           <mdi-email-outline class="mr-0_5" />
