@@ -1,30 +1,33 @@
 <template>
-  <nav class="display-flex justify-content-between position-fixed px-3 w-100">
-    <ul class="display-flex p-0 m-0">
-      <li class="p-1"><router-link to="/">About</router-link></li>
-      <li class="p-1"><router-link to="/work">Work</router-link></li>
-      <li class="p-1"><router-link to="/projects">Projects</router-link></li>
-      <li class="p-1"><router-link to="/blog">Blog</router-link></li>
-      <li class="p-1"><router-link to="/contact">Contact</router-link></li>
-    </ul>
-
-    <ul class="display-flex p-0 m-0">
+  <nav
+    class="display-flex justify-content-between position-fixed px-3 w-100 text-decoration-none"
+  >
+    <router-link to="/" class="py-1 color-white"> Max Lefebvre </router-link>
+    <ul class="display-flex p-0 m-0 color-light-500">
       <li class="p-1">
-        <a href="https://github.com/maxle5"> <mdi-github /> </a>
+        <router-link to="/work">Work</router-link>
       </li>
       <li class="p-1">
-        <a href=""><mdi-linkedin /></a>
+        <router-link to="/projects">Projects</router-link>
+      </li>
+      <li class="p-1">
+        <router-link to="/blog">Blog</router-link>
+      </li>
+      <li class="p-1">
+        <router-link to="/contact">Contact</router-link>
       </li>
     </ul>
   </nav>
 </template>
 
-<script setup lang="ts">
-import { MdiGithub, MdiLinkedin } from "@maxle5/mdi-vue3";
-</script>
+<script setup lang="ts"></script>
 <style scoped>
 nav {
   box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
 }
 
 ul {

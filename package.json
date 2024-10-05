@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "pretty": "prettier --write ."
   },
   "dependencies": {
     "@maxle5/mdi-vue3": "^7.4.47",
@@ -15,6 +16,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.2",
+    "prettier": "^3.3.3",
     "sass": "^1.79.3",
     "typescript": "^5.5.3",
     "unplugin-vue-router": "^0.10.8",

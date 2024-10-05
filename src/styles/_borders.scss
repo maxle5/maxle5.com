@@ -1,4 +1,4 @@
-@import './mixins.scss';
+@import "./mixins.scss";
 
 .border-solid {
   border-style: solid;
@@ -7,34 +7,34 @@
   border-style: none;
 }
 
-@include variant-states('border-color-primary ') {
+@include variant-states("border-color-primary ") {
   border-color: var(--color-primary);
 }
-@include variant-states('border-color-secondary ') {
+@include variant-states("border-color-secondary ") {
   border-color: var(--color-secondary);
 }
-@include variant-states('border-color-success ') {
+@include variant-states("border-color-success ") {
   border-color: var(--color-success);
 }
-@include variant-states('border-color-danger ') {
+@include variant-states("border-color-danger ") {
   border-color: var(--color-danger);
 }
-@include variant-states('border-color-warning ') {
+@include variant-states("border-color-warning ") {
   border-color: var(--color-warning);
 }
-@include variant-states('border-color-info ') {
+@include variant-states("border-color-info ") {
   border-color: var(--color-info);
 }
-@include variant-states('border-color-light ') {
+@include variant-states("border-color-light ") {
   border-color: var(--color-light);
 }
-@include variant-states('border-color-dark ') {
+@include variant-states("border-color-dark ") {
   border-color: var(--color-dark);
 }
-@include variant-states('border-color-white ') {
+@include variant-states("border-color-white ") {
   border-color: var(--color-white);
 }
-@include variant-states('border-color-black ') {
+@include variant-states("border-color-black ") {
   border-color: var(--color-black);
 }
 
@@ -56,7 +56,7 @@
   }
 }
 
-// radius 
+// radius
 @for $i from 0 through 5 {
   .border-radius-#{$i} {
     border-radius: #{$i}rem;
@@ -109,5 +109,5 @@
   }
   .border-radius-top-left-#{$i} {
     border-top-left-radius: #{$i}rem;
-  }  
+  }
 }

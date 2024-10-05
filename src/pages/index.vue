@@ -6,11 +6,15 @@
       building enterprise web applications using modern technologies.
     </p>
 
-    <button type="button" to="/projects" class="bg-primary cursor-pointer border-none display-inline-block py-0_5 px-1 border-radius-2 color-white" @click="$router.push('/projects')">
+    <button
+      type="button"
+      to="/projects"
+      class="bg-primary cursor-pointer border-none display-inline-block py-0_5 px-1 border-radius-2 color-white"
+      @click="$router.push('/projects')"
+    >
       Projects
     </button>
   </article>
 </template>
 
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>

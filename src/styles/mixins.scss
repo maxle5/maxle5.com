@@ -1,67 +1,67 @@
 // Easily apply styles to all states of an element (disabled, hover, focus, active)
 @mixin hover() {
-    &:hover,
-    &.hover {
-        @content;
-    }
+  &:hover,
+  &.hover {
+    @content;
+  }
 }
 
 @mixin focus() {
-    &:focus,
-    &.focus {
-        @content;
-    }
+  &:focus,
+  &.focus {
+    @content;
+  }
 }
 
 @mixin active() {
-    &:active,
-    &.active {
-        @content;
-    }
+  &:active,
+  &.active {
+    @content;
+  }
 }
 
 @mixin disabled() {
-    &[disabled],
-    &.disabled {
-        @content;
-    }
+  &[disabled],
+  &.disabled {
+    @content;
+  }
 }
 
 // Generate variant classes for different states (hover, focus, active, etc.)
 @mixin variant-states($class) {
-    .#{$class} {
-        @content;
-    }
+  .#{$class} {
+    @content;
+  }
 
-    .hover\:#{$class}:hover {
-        @content;
-    }
+  .hover\:#{$class}:hover {
+    @content;
+  }
 
-    .focus\:#{$class}:focus {
-        @content;
-    }
+  .focus\:#{$class}:focus {
+    @content;
+  }
 
-    .focus-visible\:#{$class}:focus-visible {
-        @content;
-    }
+  .focus-visible\:#{$class}:focus-visible {
+    @content;
+  }
 
-    .active\:#{$class}:active {
-        @content;
-    }
+  .active\:#{$class}:active {
+    @content;
+  }
 
-    .group:hover .group-hover\:#{$class} {
-        @content;
-    }
+  .group:hover .group-hover\:#{$class} {
+    @content;
+  }
 
-    .group:focus .group-focus\:#{$class} {
-        @content;
-    }
+  .group:focus .group-focus\:#{$class} {
+    @content;
+  }
 
-    .group:focus-visible .group-focus-visible\:#{$class} {
-        @content;
-    }
+  .group:focus-visible .group-focus-visible\:#{$class} {
+    @content;
+  }
 
-    .group:active .group-active\:#{$class} {
-        @content;
-    }
+  .group:active .group-active\:#{$class} {
+    @content;
+  }
 }

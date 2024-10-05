@@ -15,6 +15,11 @@
 @import "./_widths.scss";
 @import "./_vars.scss";
 
+body {
+  color: var(--color-light-500);
+  background-color: var(--color-dark-600);
+}
+
 /* Layout */
 #app {
   display: grid;

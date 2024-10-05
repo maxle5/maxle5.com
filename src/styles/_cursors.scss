@@ -1,17 +1,17 @@
-@import './mixins.scss';
+@import "./mixins.scss";
 
-@include variant-states('cursor-pointer') {
-    cursor: pointer;
+@include variant-states("cursor-pointer") {
+  cursor: pointer;
 }
 
-@include variant-states('cursor-grab') {
-    cursor: text;
+@include variant-states("cursor-grab") {
+  cursor: text;
 }
 
-@include variant-states('cursor-disabled') {
-    cursor: not-allowed;
+@include variant-states("cursor-disabled") {
+  cursor: not-allowed;
 }
 
-@include variant-states('cursor-help') {
-    cursor: help;
+@include variant-states("cursor-help") {
+  cursor: help;
 }
