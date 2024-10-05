@@ -1,54 +1,54 @@
 @for $i from 0 through 16 {
   .p-#{$i} {
-    padding: #{$i * 1}rem;
+    padding: #{$i * 1}rem !important;
   }
   .p-#{$i}_5 {
-    padding: #{$i + 0.5}rem;
+    padding: #{$i + 0.5}rem !important;
   }
 
   .pt-#{$i} {
-    padding-top: #{$i * 1}rem;
+    padding-top: #{$i * 1}rem !important;
   }
   .pt-#{$i}_5 {
-    padding-top: #{$i + 0.5}rem;
+    padding-top: #{$i + 0.5}rem !important;
   }
 
   .pr-#{$i} {
-    padding-right: #{$i * 1}rem;
+    padding-right: #{$i * 1}rem !important;
   }
   .pr-#{$i}_5 {
-    padding-right: #{$i + 0.5}rem;
+    padding-right: #{$i + 0.5}rem !important;
   }
 
   .pb-#{$i} {
-    padding-bottom: #{$i * 1}rem;
+    padding-bottom: #{$i * 1}rem !important;
   }
   .pb-#{$i}_5 {
-    padding-bottom: #{$i + 0.5}rem;
+    padding-bottom: #{$i + 0.5}rem !important;
   }
 
   .pl-#{$i} {
-    padding-left: #{$i * 1}rem;
+    padding-left: #{$i * 1}rem !important;
   }
   .pl-#{$i}_5 {
-    padding-left: #{$i + 0.5}rem;
+    padding-left: #{$i + 0.5}rem !important;
   }
 
   .px-#{$i} {
-    padding-left: #{$i * 1}rem;
-    padding-right: #{$i * 1}rem;
+    padding-left: #{$i * 1}rem !important;
+    padding-right: #{$i * 1}rem !important;
   }
   .px-#{$i}_5 {
-    padding-left: #{$i + 0.5}rem;
-    padding-right: #{$i + 0.5}rem;
+    padding-left: #{$i + 0.5}rem !important;
+    padding-right: #{$i + 0.5}rem !important;
   }
 
   .py-#{$i} {
-    padding-top: #{$i * 1}rem;
-    padding-bottom: #{$i * 1}rem;
+    padding-top: #{$i * 1}rem !important;
+    padding-bottom: #{$i * 1}rem !important;
   }
   .py-#{$i}_5 {
-    padding-top: #{$i + 0.5}rem;
-    padding-bottom: #{$i + 0.5}rem;
+    padding-top: #{$i + 0.5}rem !important;
+    padding-bottom: #{$i + 0.5}rem !important;
   }
 }

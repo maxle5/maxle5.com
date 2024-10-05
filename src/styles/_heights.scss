@@ -1,44 +1,44 @@
 .h-full {
-  height: 100vw;
+  height: 100vw !important;
 }
 .min-w-full {
-  min-height: 100vw;
+  min-height: 100vw !important;
 }
 .max-w-full {
-  max-height: 100vw;
+  max-height: 100vw !important;
 }
 
 @for $i from 1 through 100 {
   .h-#{$i} {
-    height: #{$i * 1%};
+    height: #{$i * 1%} !important;
   }
   .min-w-#{$i} {
-    min-height: #{$i * 1%};
+    min-height: #{$i * 1%} !important;
   }
   .max-w-#{$i} {
-    max-height: #{$i * 1%};
+    max-height: #{$i * 1%} !important;
   }
 }
 
 @for $i from 1 through 16 {
   .h-#{$i}-rem {
-    height: #{$i * 1}rem;
+    height: #{$i * 1}rem !important;
   }
   .h-#{$i}_5-rem {
-    height: #{$i + 0.5}rem;
+    height: #{$i + 0.5}rem !important;
   }
 
   .min-w-#{$i}-rem {
-    min-height: #{$i * 1}rem;
+    min-height: #{$i * 1}rem !important;
   }
   .min-w-#{$i}_5-rem {
-    min-height: #{$i + 0.5}rem;
+    min-height: #{$i + 0.5}rem !important;
   }
 
   .max-w-#{$i}-rem {
-    max-height: #{$i * 1}rem;
+    max-height: #{$i * 1}rem !important;
   }
   .max-w-#{$i}_5-rem {
-    max-height: #{$i + 0.5}rem;
+    max-height: #{$i + 0.5}rem !important;
   }
 }

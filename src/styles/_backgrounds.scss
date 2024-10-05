@@ -1,32 +1,32 @@
 @import "./mixins.scss";
 
 @include variant-states("bg-primary") {
-  background-color: var(--color-primary);
+  background-color: var(--color-primary) !important;
 }
 @include variant-states("bg-secondary") {
-  background-color: var(--color-secondary);
+  background-color: var(--color-secondary) !important;
 }
 @include variant-states("bg-success") {
-  background-color: var(--color-success);
+  background-color: var(--color-success) !important;
 }
 @include variant-states("bg-danger") {
-  background-color: var(--color-danger);
+  background-color: var(--color-danger) !important;
 }
 @include variant-states("bg-warning") {
-  background-color: var(--color-warning);
+  background-color: var(--color-warning) !important;
 }
 @include variant-states("bg-info") {
-  background-color: var(--color-info);
+  background-color: var(--color-info) !important;
 }
 @include variant-states("bg-light") {
-  background-color: var(--color-light);
+  background-color: var(--color-light) !important;
 }
 @include variant-states("bg-dark") {
-  background-color: var(--color-dark);
+  background-color: var(--color-dark) !important;
 }
 @include variant-states("bg-white") {
-  background-color: var(--color-white);
+  background-color: var(--color-white) !important;
 }
 @include variant-states("bg-black") {
-  background-color: var(--color-black);
+  background-color: var(--color-black) !important;
 }

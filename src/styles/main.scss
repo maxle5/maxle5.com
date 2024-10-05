@@ -1,5 +1,6 @@
 /* reset browser styles */
 @import "./nomalize.scss"; // TODO: simplify this file
+@import "./fonts.scss";
 
 /* utils */
 @import "./_backgrounds.scss";
@@ -16,6 +17,7 @@
 @import "./_vars.scss";
 
 body {
+  font-family: "Wotfard", sans-serif;
   color: var(--color-light-500);
   background-color: var(--color-dark-600);
 }

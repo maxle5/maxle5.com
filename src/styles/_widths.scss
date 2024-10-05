@@ -1,44 +1,44 @@
 .w-full {
-  width: 100vw;
+  width: 100vw !important;
 }
 .min-w-full {
-  min-width: 100vw;
+  min-width: 100vw !important;
 }
 .max-w-full {
-  max-width: 100vw;
+  max-width: 100vw !important;
 }
 
 @for $i from 1 through 100 {
   .w-#{$i} {
-    width: #{$i * 1%};
+    width: #{$i * 1%} !important;
   }
   .min-w-#{$i} {
-    min-width: #{$i * 1%};
+    min-width: #{$i * 1%} !important;
   }
   .max-w-#{$i} {
-    max-width: #{$i * 1%};
+    max-width: #{$i * 1%} !important;
   }
 }
 
 @for $i from 1 through 16 {
   .w-#{$i}-rem {
-    width: #{$i * 1}rem;
+    width: #{$i * 1}rem !important;
   }
   .w-#{$i}_5-rem {
-    width: #{$i + 0.5}rem;
+    width: #{$i + 0.5}rem !important;
   }
 
   .min-w-#{$i}-rem {
-    min-width: #{$i * 1}rem;
+    min-width: #{$i * 1}rem !important;
   }
   .min-w-#{$i}_5-rem {
-    min-width: #{$i + 0.5}rem;
+    min-width: #{$i + 0.5}rem !important;
   }
 
   .max-w-#{$i}-rem {
-    max-width: #{$i * 1}rem;
+    max-width: #{$i * 1}rem !important;
   }
   .max-w-#{$i}_5-rem {
-    max-width: #{$i + 0.5}rem;
+    max-width: #{$i + 0.5}rem !important;
   }
 }
