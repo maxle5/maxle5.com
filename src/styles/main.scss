@@ -1,6 +1,4 @@
-/* reset browser styles */
 @import "./nomalize.scss"; // TODO: simplify this file
-@import "./fonts.scss";
 
 /* utils */
 @import "./_backgrounds.scss";
@@ -8,6 +6,7 @@
 @import "./_cursors.scss";
 @import "./_displays.scss";
 @import "./_flex.scss";
+@import "./grid.scss";
 @import "./_heights.scss";
 @import "./_margins.scss";
 @import "./_paddings.scss";
@@ -16,26 +15,47 @@
 @import "./_widths.scss";
 @import "./_vars.scss";
 
+/* app-specific fonts */
+@font-face {
+  font-family: "Teko";
+  src: url("@/assets/fonts/Teko-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Wotfard";
+  src: url("@/assets/fonts/Wotfard-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("@/assets/fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+/* app-specific styles */
 body {
   font-family: "Wotfard", sans-serif;
   color: var(--color-light-500);
   background-color: var(--color-dark-600);
-}
 
-/* Layout */
-#app {
-  display: grid;
-  grid-template-areas:
-    "header"
-    "main";
-  grid-template-rows: 50px 1fr;
-  min-height: 100vh;
-}
+  &[data-theme="light"] {
+    color: var(--color-dark-500);
+    background-color: var(--color-light);
+  }
 
-header {
-  grid-area: header;
-}
+  #app {
+    display: grid;
+    grid-template-areas:
+      "header"
+      "main";
+    grid-template-rows: 50px 1fr;
+    min-height: 100vh;
 
-main {
-  grid-area: main;
+    header {
+      grid-area: header;
+    }
+
+    main {
+      grid-area: main;
+    }
+  }
 }

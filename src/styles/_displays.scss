@@ -1,21 +1,23 @@
-.display-block {
-  display: block !important;
-}
-.display-inline {
-  display: inline !important;
-}
-.display-inline-block {
-  display: inline-block !important;
-}
-.display-flex {
-  display: flex !important;
-}
-.display-inline-flex {
-  display: inline-flex !important;
-}
-.display-none {
+@import "./mixins.scss";
+
+@include variant-screens(display-none) {
   display: none !important;
 }
-.display-grid {
+@include variant-screens(display-block) {
+  display: block !important;
+}
+@include variant-screens(display-inline) {
+  display: inline !important;
+}
+@include variant-screens(display-inline-block) {
+  display: inline-block !important;
+}
+@include variant-screens(display-flex) {
+  display: flex !important;
+}
+@include variant-screens(display-inline-flex) {
+  display: inline-flex !important;
+}
+@include variant-screens(display-grid) {
   display: grid !important;
 }

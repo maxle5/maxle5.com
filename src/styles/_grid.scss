@@ -1,0 +1,20 @@
+@import "./_mixins.scss";
+
+@for $i from 1 through 12 {
+  @include variant-screens(grid-cols-#{$i}) {
+    grid-template-columns: repeat(#{$i}, minmax(0, 1fr)) !important;
+  }
+}
+
+// grid gaps
+@for $i from 0 through 5 {
+  .gap-#{$i} {
+    gap: #{$i}rem !important;
+  }
+  .gap-x-#{$i} {
+    column-gap: #{$i}rem !important;
+  }
+  .gap-y-#{$i} {
+    row-gap: #{$i}rem !important;
+  }
+}

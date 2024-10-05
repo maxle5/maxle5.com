@@ -1,3 +1,14 @@
+@import "./_vars.scss";
+@import "./_mixins.scss";
+
+// Text colors
+@each $key, $value in $color-map {
+  @include variant-states("color-#{$key}") {
+    color: $value !important;
+  }
+}
+
+// Text alignments
 .text-left {
   text-align: left !important;
 }
@@ -8,6 +19,7 @@
   text-align: right !important;
 }
 
+// Font weights
 .font-weight-lighter {
   font-weight: lighter !important;
 }
@@ -21,37 +33,7 @@
   font-weight: bolder !important;
 }
 
-.color-primary {
-  color: var(--color-primary) !important;
-}
-.color-secondary {
-  color: var(--color-secondary) !important;
-}
-.color-success {
-  color: var(--color-success) !important;
-}
-.color-danger {
-  color: var(--color-danger) !important;
-}
-.color-warning {
-  color: var(--color-warning) !important;
-}
-.color-info {
-  color: var(--color-info) !important;
-}
-.color-light {
-  color: var(--color-light) !important;
-}
-.color-dark {
-  color: var(--color-dark) !important;
-}
-.color-white {
-  color: var(--color-white) !important;
-}
-.color-black {
-  color: var(--color-black) !important;
-}
-
+// Text decorations
 .text-decoration-none {
   text-decoration: none !important;
 }

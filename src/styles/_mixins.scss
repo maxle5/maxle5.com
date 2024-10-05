@@ -49,19 +49,39 @@
     @content;
   }
 
-  .group:hover .group-hover\:#{$class} {
+  [data-theme="light"] .dark\:#{$class} {
     @content;
   }
 
-  .group:focus .group-focus\:#{$class} {
+  [data-theme="dark"] .dark\:#{$class} {
+    @content;
+  }
+}
+
+@mixin variant-screens($class) {
+  // base style for mobile devices
+  .#{$class} {
     @content;
   }
 
-  .group:focus-visible .group-focus-visible\:#{$class} {
-    @content;
+  /* Styles for mobile devices */
+  @media only screen and (min-width: 750px) {
+    .sm\:#{$class} {
+      @content;
+    }
   }
 
-  .group:active .group-active\:#{$class} {
-    @content;
+  /* Styles for tablets */
+  @media only screen and (min-width: 1000px) {
+    .md\:#{$class} {
+      @content;
+    }
+  }
+
+  /* Styles for desktops */
+  @media only screen and (min-width: 1400px) {
+    .lg\:#{$class} {
+      @content;
+    }
   }
 }

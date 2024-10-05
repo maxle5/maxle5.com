@@ -1,4 +1,4 @@
-@import "./mixins.scss";
+@import "./_mixins.scss";
 
 @include variant-states("bg-primary") {
   background-color: var(--color-primary) !important;
