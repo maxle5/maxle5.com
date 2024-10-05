@@ -1,32 +1,12 @@
+@import "./vars.scss";
 @import "./_mixins.scss";
 
-@include variant-states("bg-primary") {
-  background-color: var(--color-primary) !important;
+@include variant-states("bg-none") {
+  background: none !important;
 }
-@include variant-states("bg-secondary") {
-  background-color: var(--color-secondary) !important;
-}
-@include variant-states("bg-success") {
-  background-color: var(--color-success) !important;
-}
-@include variant-states("bg-danger") {
-  background-color: var(--color-danger) !important;
-}
-@include variant-states("bg-warning") {
-  background-color: var(--color-warning) !important;
-}
-@include variant-states("bg-info") {
-  background-color: var(--color-info) !important;
-}
-@include variant-states("bg-light") {
-  background-color: var(--color-light) !important;
-}
-@include variant-states("bg-dark") {
-  background-color: var(--color-dark) !important;
-}
-@include variant-states("bg-white") {
-  background-color: var(--color-white) !important;
-}
-@include variant-states("bg-black") {
-  background-color: var(--color-black) !important;
+
+@each $key, $value in $color-map {
+  @include variant-states("bg-#{$key}") {
+    background-color: var(--color-#{$key}) !important;
+  }
 }

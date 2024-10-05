@@ -1,6 +1,6 @@
 <template>
   <article class="display-grid md:grid-cols-2 gap-2">
-    <div class="display-flex flex-direction-column justify-content-center pb-8">
+    <div class="display-flex flex-direction-column justify-content-center pb-2">
       <h1 class="color-white mb-1">Hello, I'm Max.</h1>
       <p>
         A software developer based in Halifax, Nova Scotia. I specialize in
@@ -12,7 +12,7 @@
       </p>
     </div>
     <aside class="display-flex justify-content-center align-items-center">
-      <img src="/avatar.png" alt="Max Lefebvre" class="w-32-rem h-32-rem" />
+      <img src="/avatar.png" alt="Max Lefebvre" class="w-28-rem h-28-rem" />
     </aside>
   </article>
 </template>

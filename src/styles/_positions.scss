@@ -13,3 +13,18 @@
 .position-sticky {
   position: sticky !important;
 }
+
+@for $i from 0 through 5 {
+  .left-#{$i} {
+    left: #{$i}rem !important;
+  }
+  .right-#{$i} {
+    right: #{$i}rem !important;
+  }
+  .top-#{$i} {
+    top: #{$i}rem !important;
+  }
+  .bottom-#{$i} {
+    bottom: #{$i}rem !important;
+  }
+}
