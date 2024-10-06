@@ -85,3 +85,11 @@
     }
   }
 }
+
+@mixin variant-colors($classPrefix, $property: $classPrefix) {
+  @each $color, $value in $color-map {
+    .#{$classPrefix}-#{$color} {
+      #{$property}: var(--color-#{$color}) !important;
+    }
+  }
+}

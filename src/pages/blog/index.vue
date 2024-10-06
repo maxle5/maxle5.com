@@ -1,6 +1,7 @@
 <template>
   <article>
     <h1 class="color-primary">Blog</h1>
+    <p>My thoughts on software development and a look at my personal life.</p>
     <ul>
       <li v-for="post in blogPosts">
         <router-link :to="post">{{ post.path }}</router-link>

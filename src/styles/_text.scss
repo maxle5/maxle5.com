@@ -8,6 +8,16 @@
   }
 }
 
+// Font sizes
+@for $i from 1 through 6 {
+  .font-#{$i}-rem {
+    font-size: #{$i}rem !important;
+  }
+  .font-#{$i}_5-rem {
+    font-size: #{$i + 0.5}rem !important;
+  }
+}
+
 // Text alignments
 .text-left {
   text-align: left !important;

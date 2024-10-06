@@ -4,6 +4,10 @@
   @include variant-screens(grid-cols-#{$i}) {
     grid-template-columns: repeat(#{$i}, minmax(0, 1fr)) !important;
   }
+
+  @include variant-screens(col-span-#{$i}) {
+    grid-column: span #{$i} / span #{$i} !important;
+  }
 }
 
 // grid gaps

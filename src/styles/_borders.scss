@@ -61,55 +61,55 @@
 // radius
 @for $i from 0 through 5 {
   .border-radius-#{$i} {
-    border-radius: #{$i}px !important;
+    border-radius: #{$i}rem !important;
   }
   .border-radius-#{$i}_5 {
-    border-radius: #{$i + 0.5}px !important;
+    border-radius: #{$i + 0.5}rem !important;
   }
 
   .border-radius-bottom-#{$i} {
-    border-bottom-left-radius: #{$i}px !important;
-    border-bottom-right-radius: #{$i}px !important;
+    border-bottom-left-radius: #{$i}rem !important;
+    border-bottom-right-radius: #{$i}rem !important;
   }
   .border-radius-top-#{$i} {
-    border-top-left-radius: #{$i}px !important;
-    border-top-right-radius: #{$i}px !important;
+    border-top-left-radius: #{$i}rem !important;
+    border-top-right-radius: #{$i}rem !important;
   }
 
   .border-radius-top-#{$i} {
-    border-top-left-radius: #{$i}px !important;
-    border-top-right-radius: #{$i}px !important;
+    border-top-left-radius: #{$i}rem !important;
+    border-top-right-radius: #{$i}rem !important;
   }
   .border-radius-bottom-#{$i} {
-    border-bottom-left-radius: #{$i}px !important;
-    border-bottom-right-radius: #{$i}px !important;
+    border-bottom-left-radius: #{$i}rem !important;
+    border-bottom-right-radius: #{$i}rem !important;
   }
 
   .border-radius-bottom-left-#{$i} {
-    border-bottom-left-radius: #{$i}px !important;
+    border-bottom-left-radius: #{$i}rem !important;
   }
   .border-radius-bottom-right-#{$i} {
-    border-bottom-right-radius: #{$i}px !important;
+    border-bottom-right-radius: #{$i}rem !important;
   }
 
   .border-radius-bottom-right-#{$i} {
-    border-bottom-right-radius: #{$i}px !important;
+    border-bottom-right-radius: #{$i}rem !important;
   }
   .border-radius-bottom-left-#{$i} {
-    border-bottom-left-radius: #{$i}px !important;
+    border-bottom-left-radius: #{$i}rem !important;
   }
 
   .border-radius-top-left-#{$i} {
-    border-top-left-radius: #{$i}px !important;
+    border-top-left-radius: #{$i}rem !important;
   }
   .border-radius-top-right-#{$i} {
-    border-top-right-radius: #{$i}px !important;
+    border-top-right-radius: #{$i}rem !important;
   }
 
   .border-radius-top-right-#{$i} {
-    border-top-right-radius: #{$i}px !important;
+    border-top-right-radius: #{$i}rem !important;
   }
   .border-radius-top-left-#{$i} {
-    border-top-left-radius: #{$i}px !important;
+    border-top-left-radius: #{$i}rem !important;
   }
 }
