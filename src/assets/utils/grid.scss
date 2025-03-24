@@ -1,19 +1,19 @@
 @use 'mixins.scss';
 
 @for $i from 0 through 12 {
-    @include mixins.responsive(grid-rows-#{$i}) {
-        grid-template-rows: repeat(#{$i}, minmax(0, 1fr));
-    }
+  @include mixins.responsive(grid-rows-#{$i}) {
+    grid-template-rows: repeat(#{$i}, minmax(0, 1fr));
+  }
 
-    @include mixins.responsive(grid-cols-#{$i}) {
-        grid-template-columns: repeat(#{$i}, minmax(0, 1fr));
-    }
+  @include mixins.responsive(grid-cols-#{$i}) {
+    grid-template-columns: repeat(#{$i}, minmax(0, 1fr));
+  }
 
-    @include mixins.responsive(row-span-#{$i}) {
-        grid-row: span #{$i};
-    }
+  @include mixins.responsive(row-span-#{$i}) {
+    grid-row: span #{$i};
+  }
 
-    @include mixins.responsive(row-span-#{$i}) {
-        grid-column: span #{$i};
-    }
+  @include mixins.responsive(row-span-#{$i}) {
+    grid-column: span #{$i};
+  }
 }

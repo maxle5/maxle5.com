@@ -1,13 +1,13 @@
 @use 'mixins.scss';
 
 @include mixins.responsive(position-relative) {
-    position: relative;
+  position: relative;
 }
 
 @include mixins.responsive(position-absolute) {
-    position: absolute;
+  position: absolute;
 }
 
 @include mixins.responsive(position-sticky) {
-    position: sticky;
+  position: sticky;
 }

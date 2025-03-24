@@ -1,7 +1,6 @@
 @use 'mixins.scss';
 
 @for $i from 0 through 64 {
-
   @include mixins.responsive(mt-#{$i}) {
     margin-top: #{$i}rem;
   }
