@@ -1,0 +1,64 @@
+@use 'mixins.scss';
+
+@for $i from 0 through 64 {
+
+  @include mixins.responsive(pt-#{$i}) {
+    padding-top: #{$i}rem;
+  }
+
+  @include mixins.responsive(pt-#{$i}_5) {
+    padding-top: #{$i + 0.5}rem;
+  }
+
+  @include mixins.responsive(pr-#{$i}) {
+    padding-right: #{$i}rem;
+  }
+
+  @include mixins.responsive(pr-#{$i}_5) {
+    padding-right: #{$i + 0.5}rem;
+  }
+
+  @include mixins.responsive(pb-#{$i}) {
+    padding-bottom: #{$i}rem;
+  }
+
+  @include mixins.responsive(pb-#{$i}_5) {
+    padding-bottom: #{$i + 0.5}rem;
+  }
+
+  @include mixins.responsive(pl-#{$i}) {
+    padding-left: #{$i}rem;
+  }
+
+  @include mixins.responsive(pl-#{$i}_5) {
+    padding-left: #{$i + 0.5}rem;
+  }
+
+  @include mixins.responsive(p-#{$i}) {
+    padding: #{$i}rem;
+  }
+
+  @include mixins.responsive(p-#{$i}_5) {
+    padding: #{$i + 0.5}rem;
+  }
+
+  @include mixins.responsive(py-#{$i}) {
+    padding-top: #{$i}rem;
+    padding-bottom: #{$i}rem;
+  }
+
+  @include mixins.responsive(py-#{$i}_5) {
+    padding-top: #{$i + 0.5}rem;
+    padding-bottom: #{$i + 0.5}rem;
+  }
+
+  @include mixins.responsive(px-#{$i}) {
+    padding-right: #{$i}rem;
+    padding-left: #{$i}rem;
+  }
+
+  @include mixins.responsive(px-#{$i}_5) {
+    padding-right: #{$i + 0.5}rem;
+    padding-left: #{$i + 0.5}rem;
+  }
+}

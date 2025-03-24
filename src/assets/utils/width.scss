@@ -1,0 +1,25 @@
+@use 'mixins.scss';
+
+@include mixins.responsive(w-full) {
+  width: 100%;
+}
+
+@include mixins.responsive(w-screen) {
+  width: 100vh;
+}
+
+@for $i from 0 through 100 {
+  @include mixins.responsive(w-#{$i}) {
+    width: #{$i}#{'%'};
+  }
+}
+
+@for $i from 0 through 64 {
+  @include mixins.responsive(w-#{$i}-rem) {
+    width: #{$i}rem;
+  }
+
+  @include mixins.responsive(w-#{$i}_5-rem) {
+    width: #{$i + 0.5}rem;
+  }
+}

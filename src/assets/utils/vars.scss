@@ -1,0 +1,8 @@
+@use 'mixins.scss';
+
+:root {
+  @include mixins.colour-var('colour-primary', '#E07A5F');
+  @include mixins.colour-var('colour-secondary', '#81B29A');
+  @include mixins.colour-var('colour-foreground', '#F4F1DE');
+  @include mixins.colour-var('colour-background', '#3D405B');
+}

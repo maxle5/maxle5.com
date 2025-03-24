@@ -1,0 +1,9 @@
+@use './base.scss';
+@use './utils.scss';
+@use '@fontsource-variable/inter';
+
+body {
+  font-family: 'Inter Variable', sans-serif;
+  color: var(--colour-foreground);
+  background-color: var(--colour-background);
+}

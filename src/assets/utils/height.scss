@@ -1,0 +1,25 @@
+@use 'mixins.scss';
+
+@include mixins.responsive(h-full) {
+  height: 100%;
+}
+
+@include mixins.responsive(h-screen) {
+  height: 100vh;
+}
+
+@for $i from 0 through 100 {
+  @include mixins.responsive(h-#{$i}) {
+    height: #{$i}#{'%'};
+  }
+}
+
+@for $i from 0 through 64 {
+  @include mixins.responsive(h-#{$i}-rem) {
+    height: #{$i}rem;
+  }
+
+  @include mixins.responsive(h-#{$i}_5-rem) {
+    height: #{$i + 0.5}rem;
+  }
+}

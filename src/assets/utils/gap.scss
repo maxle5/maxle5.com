@@ -1,0 +1,11 @@
+@use 'mixins.scss';
+
+@for $i from 0 through 64 {
+    @include mixins.responsive(gap-#{$i}-rem) {
+        gap: #{$i}rem;
+    }
+
+    @include mixins.responsive(gap-#{$i}_5-rem) {
+        gap: #{$i + 0.5}rem;
+    }
+}

@@ -1,0 +1,43 @@
+@mixin responsive($class) {
+  .#{$class} {
+    @content;
+  }
+
+  @media (width >=40rem) {
+    .sm\:#{$class} {
+      @content;
+    }
+  }
+
+  @media (width >=48rem) {
+    .md\:#{$class} {
+      @content;
+    }
+  }
+
+  @media (width >=64rem) {
+    .lg\:#{$class} {
+      @content;
+    }
+  }
+
+  @media (width >=80rem) {
+    .xl\:#{$class} {
+      @content;
+    }
+  }
+}
+
+@mixin colour-var($variable, $colour) {
+  --#{$variable}: #{$colour};
+
+  --#{$variable}#{'-100'}: color-mix(in srgb, #fff 88%, var(--#{$variable}));
+  --#{$variable}-200: color-mix(in srgb, #fff 66%, var(--#{$variable}));
+  --#{$variable}-300: color-mix(in srgb, #fff 44%, var(--#{$variable}));
+  --#{$variable}-400: color-mix(in srgb, #fff 22%, var(--#{$variable}));
+  --#{$variable}-500: var(--#{$variable});
+  --#{$variable}-600: color-mix(in srgb, #000 22%, var(--#{$variable}));
+  --#{$variable}-700: color-mix(in srgb, #000 44%, var(--#{$variable}));
+  --#{$variable}-800: color-mix(in srgb, #000 66%, var(--#{$variable}));
+  --#{$variable}-900: color-mix(in srgb, #000 88%, var(--#{$variable}));
+}

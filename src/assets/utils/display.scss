@@ -1,0 +1,21 @@
+@use 'mixins.scss';
+
+@include mixins.responsive(display-none) {
+  display: none;
+}
+
+@include mixins.responsive(display-block) {
+  display: block;
+}
+
+@include mixins.responsive(display-flex) {
+  display: flex;
+}
+
+@include mixins.responsive(display-inline-flex) {
+  display: inline-flex;
+}
+
+@include mixins.responsive(display-grid) {
+  display: grid;
+}

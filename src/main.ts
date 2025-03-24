@@ -1,4 +1,4 @@
-import './assets/main.css'
+import './assets/main.scss'
 
 import { ViteSSG } from 'vite-ssg'
 import App from './App.vue'
