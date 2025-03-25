@@ -28,8 +28,8 @@
   }
 }
 
-@mixin colour-var($variable, $colour) {
-  --#{$variable}: #{$colour};
+@mixin color-var($variable, $color) {
+  --#{$variable}: #{$color};
 
   --#{$variable}#{'-100'}: color-mix(in srgb, #fff 88%, var(--#{$variable}));
   --#{$variable}-200: color-mix(in srgb, #fff 66%, var(--#{$variable}));

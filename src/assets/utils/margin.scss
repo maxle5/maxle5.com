@@ -1,5 +1,15 @@
 @use 'mixins.scss';
 
+@include mixins.responsive(my-auto) {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@include mixins.responsive(mx-auto) {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @for $i from 0 through 64 {
   @include mixins.responsive(mt-#{$i}) {
     margin-top: #{$i}rem;

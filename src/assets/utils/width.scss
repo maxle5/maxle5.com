@@ -22,4 +22,20 @@
   @include mixins.responsive(w-#{$i}_5-rem) {
     width: #{$i + 0.5}rem;
   }
+
+  @include mixins.responsive(min-w-#{$i}-rem) {
+    min-width: #{$i}rem;
+  }
+
+  @include mixins.responsive(min-w-#{$i}_5-rem) {
+    min-width: #{$i + 0.5}rem;
+  }
+
+  @include mixins.responsive(max-w-#{$i}-rem) {
+    max-width: #{$i}rem;
+  }
+
+  @include mixins.responsive(max-w-#{$i}_5-rem) {
+    max-width: #{$i + 0.5}rem;
+  }
 }

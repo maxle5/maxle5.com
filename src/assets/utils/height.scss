@@ -22,4 +22,20 @@
   @include mixins.responsive(h-#{$i}_5-rem) {
     height: #{$i + 0.5}rem;
   }
+
+  @include mixins.responsive(min-h-#{$i}-rem) {
+    min-height: #{$i}rem;
+  }
+
+  @include mixins.responsive(min-h-#{$i}_5-rem) {
+    min-height: #{$i + 0.5}rem;
+  }
+
+  @include mixins.responsive(max-h-#{$i}-rem) {
+    max-height: #{$i}rem;
+  }
+
+  @include mixins.responsive(max-h-#{$i}_5-rem) {
+    max-height: #{$i + 0.5}rem;
+  }
 }

@@ -1,6 +1,8 @@
 @use 'sass:meta';
 
 @include meta.load-css('./utils/display.scss');
+@include meta.load-css('./utils/border.scss');
+@include meta.load-css('./utils/color.scss');
 @include meta.load-css('./utils/flex.scss');
 @include meta.load-css('./utils/gap.scss');
 @include meta.load-css('./utils/grid.scss');

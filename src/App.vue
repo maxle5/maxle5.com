@@ -16,22 +16,22 @@ import Header from './components/Header.vue'
 <style lang="scss" scoped>
 header {
   box-sizing: content-box;
-  background-color: var(--colour-background-600);
+  background-color: var(--color-background-600);
 
   h1 {
-    color: var(--colour-primary);
+    color: var(--color-primary);
   }
 
   a {
-    color: var(--colour-background-300);
+    color: var(--color-background-300);
     text-decoration: none;
 
     &:hover {
-      color: var(--colour-secondary);
+      color: var(--color-secondary);
     }
 
     &.router-link-active {
-      color: var(--colour-secondary);
+      color: var(--color-secondary);
     }
   }
 }

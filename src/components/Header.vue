@@ -1,9 +1,7 @@
 <template>
   <header class="display-flex justify-content-between align-items-center p-1">
     <h1 class="mt-0">
-      <router-link to="/">
-        Max Lefebvre
-      </router-link>
+      <router-link to="/"> Max Lefebvre </router-link>
     </h1>
 
     <div class="links display-none md:display-flex gap-1_5-rem">
@@ -40,23 +38,23 @@ import {
 <style lang="scss" scoped>
 header {
   box-sizing: content-box;
-  background-color: var(--colour-background-600);
+  background-color: var(--color-background-600);
 
   a {
     text-decoration: none;
-    color: var(--colour-primary);
+    color: var(--color-primary);
   }
 
   .links {
     a {
-      color: var(--colour-background-300);
+      color: var(--color-background-300);
 
       &:hover {
-        color: var(--colour-secondary);
+        color: var(--color-secondary);
       }
 
       &.router-link-active {
-        color: var(--colour-secondary);
+        color: var(--color-secondary);
       }
     }
   }
