@@ -5,19 +5,19 @@
     </h1>
 
     <div class="links display-none md:display-flex gap-1_5-rem">
-      <router-link class="display-flex align-items-center" to="/work">
+      <router-link class="display-flex align-items-center" to="/work" title="Work">
         <mdi-account-hard-hat-outline :size="32" class="mr-0_5" />
         <span>Work</span>
       </router-link>
-      <router-link class="display-flex align-items-center" to="/projects">
+      <router-link class="display-flex align-items-center" to="/projects" title="Projects">
         <mdi-cube-outline :size="32" class="mr-0_5" />
         <span>Projects</span>
       </router-link>
-      <router-link class="display-flex align-items-center" to="/blog">
+      <router-link class="display-flex align-items-center" to="/blog" title="Blog">
         <mdi-newspaper-variant-outline :size="32" class="mr-0_5" />
         <span>Blog</span>
       </router-link>
-      <router-link class="display-flex align-items-center" to="/contact">
+      <router-link class="display-flex align-items-center" to="/contact" title="Contact">
         <mdi-email-outline :size="32" class="mr-0_5" />
         <span>Contact</span>
       </router-link>
