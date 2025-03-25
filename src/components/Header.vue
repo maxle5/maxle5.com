@@ -27,12 +27,11 @@
 
 <script setup lang="ts">
 import { RouterLink } from 'vue-router'
-import {
-  MdiAccountOutline,
-  MdiCubeOutline,
-  MdiNewspaperVariantOutline,
-  MdiEmailOutline,
-} from '@maxle5/mdi-vue3'
+import MdiAccountOutline from '@maxle5/mdi-vue3/MdiAccountOutline.vue';
+import MdiCubeOutline from '@maxle5/mdi-vue3/MdiCubeOutline.vue';
+import MdiNewspaperVariantOutline from '@maxle5/mdi-vue3/MdiNewspaperVariantOutline.vue';
+import MdiEmailOutline from '@maxle5/mdi-vue3/MdiEmailOutline.vue';
+
 </script>
 
 <style lang="scss" scoped>
