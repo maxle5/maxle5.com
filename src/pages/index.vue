@@ -16,9 +16,9 @@
         for businesses.
       </p>
       <p>
-        I thrive in collaborative teams, where I enjoy mentoring junior developers and learning from
-        senior colleagues. Continuous learning and knowledge sharing are central to my approach,
-        helping to build stronger, more effective teams.
+        I thrive in collaborative teams, enjoying the opportunity to mentor junior developers and
+        learn from senior colleagues. I consider continuous learning and knowledge sharing essential
+        for fostering stronger, more effective teams.
       </p>
     </div>
   </article>
